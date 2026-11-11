@@ -176,7 +176,7 @@ jupyter notebook Heart_Disease.ipynb
 ```
 
 Then choose **Kernel → Restart & Run All**. You can also open the notebook in **Google Colab** by uploading `heart.csv` to the session.
-```
+
 ## ⚠️ Limitations
 
 - **Small dataset:** Only 302 patients, with a 61-patient test set. Results can change noticeably with a different split, which is why cross-validation is reported.
