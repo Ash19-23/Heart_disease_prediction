@@ -153,6 +153,29 @@ source venv/bin/activate      # On Windows: venv\Scripts\activate
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter
+
+Or save the following as `requirements.txt` and run `pip install -r requirements.txt`:
+
+```
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn>=1.0
+jupyter
+```
+
+### 4. Add the dataset
+
+Download `heart.csv` (Heart Disease dataset from Kaggle(https://www.kaggle.com/datasets/ritwikb3/heart-disease-cleveland))
+
+### 5. Run the notebook
+
+```bash
+jupyter notebook Heart_Disease.ipynb
+```
+
+Then choose **Kernel → Restart & Run All**. You can also open the notebook in **Google Colab** by uploading `heart.csv` to the session.
 ```
 ## ⚠️ Limitations
 
