@@ -163,8 +163,8 @@ matplotlib
 seaborn
 scikit-learn>=1.0
 jupyter
-```
 
+```
 ### 4. Add the dataset
 
 Download `heart.csv` (Heart Disease dataset from Kaggle(https://www.kaggle.com/datasets/ritwikb3/heart-disease-cleveland))
@@ -173,13 +173,15 @@ Download `heart.csv` (Heart Disease dataset from Kaggle(https://www.kaggle.com/d
 
 ```bash
 jupyter notebook Heart_Disease.ipynb
+
 ```
 
 Then choose **Kernel → Restart & Run All**. You can also open the notebook in **Google Colab** by uploading `heart.csv` to the session.
 
+
 ## ⚠️ Limitations
 
-- **Small dataset:** Only 302 patients, with a 61-patient test set. Results can change noticeably with a different split, which is why cross-validation is reported.
+ **Small dataset:** Only 302 patients, with a 61-patient test set. Results can change noticeably with a different split, which is why cross-validation is reported.
 - **Single source:** The data comes from one hospital study, so the model may not generalise to other populations.
 - **Sex imbalance:** About two thirds of the patients are male.
 - **No hyperparameter tuning** beyond choosing *k* for KNN.
