@@ -138,8 +138,8 @@ Models are sorted by cross-validation accuracy:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/Ash19-23/Heart_Disease.git
+cd Heart_Disease
 ```
 
 ### 2. (Recommended) Create a virtual environment
