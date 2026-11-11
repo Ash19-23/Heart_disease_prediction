@@ -34,7 +34,7 @@ Logistic Regression gave the most reliable performance across the different data
 - **File:** `heart.csv`
 - **Size:** 303 rows × 14 columns (302 rows after removing one duplicate)
 - **Type:** Binary classification (heart disease: yes / no)
-- **Origin:** The widely used Heart Disease dataset (Cleveland data from the UCI Machine Learning Repository, also distributed on Kaggle).
+- **Origin:**  Heart Disease dataset from Kaggle https://www.kaggle.com/datasets/ritwikb3/heart-disease-cleveland
 
 ### Features
 
